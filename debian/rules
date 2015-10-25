@@ -9,7 +9,7 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 export DEB_BUILD_MAINT_OPTIONS=hardening=+all,-pie
 
 %:
-	dh $@ --with python2
+	dh $@ --with=systemd,python2
 
 # pass extra flags to configure
 override_dh_auto_configure:
