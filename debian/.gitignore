@@ -1,0 +1,9 @@
+/libnss-ldapd/
+/libpam-ldapd/
+/nslcd/
+/nslcd-utils/
+/pynslcd/
+/tmp/
+*.debhelper.log
+*.debhelper
+*.substvars
