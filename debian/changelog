@@ -1,3 +1,9 @@
+nss-pam-ldapd (0.9.6-2.1~aroth~ppa3) wily; urgency=medium
+
+  * bump for rebuild
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Sun, 25 Oct 2015 17:56:32 +0100
+
 nss-pam-ldapd (0.9.6-2.1~aroth~ppa2) wily; urgency=medium
 
   * use dh-systemd helper
