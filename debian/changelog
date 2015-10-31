@@ -1,3 +1,21 @@
+nss-pam-ldapd (0.9.6-4~aroth~ppa1) wily; urgency=medium
+
+  [ Arthur de Jong ]
+  * debconf translation updates:
+    - Brazilian Portuguese by Adriano Rafael Gomes (closes: #799414)
+
+  [ Andreas Roth ]
+  * bring latest debian version to ubuntu
+
+ -- Arthur de Jong <adejong@debian.org>  Sun, 20 Sep 2015 13:30:00 +0200
+
+nss-pam-ldapd (0.9.6-3) unstable; urgency=medium
+
+  * fix-ppolicy-expiration-warnings.patch: fix password policy expiration
+    warnings (closes: #794068)
+
+ -- Arthur de Jong <adejong@debian.org>  Sun, 30 Aug 2015 14:00:00 +0200
+
 nss-pam-ldapd (0.9.6-2.1~aroth~ppa3) wily; urgency=medium
 
   * bump for rebuild
